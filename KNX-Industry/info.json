@@ -4,7 +4,7 @@
     "title": "KNX Industry",
     "author": "KnoxaramaV2",
     "dependencies": [
-        "base >= 1.1.0"
+        "base >= 1.1"
     ],
 
     "factorio_version": "1.1",
