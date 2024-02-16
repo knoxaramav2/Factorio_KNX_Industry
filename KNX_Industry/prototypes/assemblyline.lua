@@ -3,6 +3,13 @@
 
 local assembly_line_1 = {
     name = "assembly_line_1",
+    type = "item",
+    icon = "__knx-industry__/graphics/icons/assembly_one.png",
+    icon_size = 64
+}
+
+local assembly_line_1_recipe = {
+    name = "assembly_line_1",
     type = "recipe",
     ingredients = {
         {name="inserter", count=3},
@@ -14,5 +21,6 @@ local assembly_line_1 = {
 }
 
 data:extend({
-    assembly_line_1
+    assembly_line_1,
+    assembly_line_1_recipe
 })
