@@ -1,2 +1,1 @@
-(require"prototypes/assemblyline")
-
+require("prototypes.assemblyline")
